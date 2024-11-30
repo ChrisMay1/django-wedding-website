@@ -36,7 +36,7 @@ DEBUG = True
 # Set to "console" for console output of emails or to "smtp" to send real mails
 MAIL_BACKEND = "console"
 
-ALLOWED_HOSTS = ["my_website_url"]
+ALLOWED_HOSTS = ["my_website_url","127.0.0.1",'localhost']
 CSRF_TRUSTED_ORIGINS = [
     "http://example.com",
     'https://127.0.0.1'
@@ -154,11 +154,11 @@ STATICFILES_DIRS = (
 
 # Some default values. Will be overwritten by a localsetting.py (rename 'localsettings.py.template' to 'localsettings.py')
 # This is used in a few places where the names of the couple are used
-BRIDE_AND_GROOM = 'Bride and Groom'
+BRIDE_AND_GROOM = 'Courtney and Chris'
 # the date of your wedding
-WEDDING_DATE = 'January 1st, 1969'
+WEDDING_DATE = 'March 22nd, 2025'
 # the location of your wedding
-WEDDING_LOCATION = 'North Pole, USA'
+WEDDING_LOCATION = 'Fredericksburg,TX USA'
 # This is used in links in save the date / invitations
 WEDDING_WEBSITE_URL = 'https://thehappycouple.com'
 # base address for all emails
